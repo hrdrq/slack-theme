@@ -657,10 +657,10 @@ ts-mention.ts_tip:hover
 
 .emoji-sizer {
    /* outline for black-on-transparent emojis */
-   -webkit-filter: drop-shadow( 1px  0 0 var(--text))
-                   drop-shadow(-1px  0 0 var(--text))
-                   drop-shadow(-0  1px 0 var(--text))
-                   drop-shadow( 0 -1px 0 var(--text));
+   -webkit-filter: drop-shadow( 0.1px  0 0 var(--text))
+                   drop-shadow(-0.1px  0 0 var(--text))
+                   drop-shadow(-0  0.1px 0 var(--text))
+                   drop-shadow( 0 -0.1px 0 var(--text));
    margin: 0 !important;
 }
 
