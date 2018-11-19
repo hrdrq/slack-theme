@@ -653,6 +653,7 @@ ts-mention.ts_tip:hover
   height: 24px;
   margin: 0 0 0 -2px !important;
   border: 1px solid transparent; /* looks silly but it makes the outline work */
+  font-size: 34px !important;
 }
 
 .emoji-sizer {
@@ -1476,6 +1477,8 @@ nav {
 .c-reaction {
     background: var(--background);
     border: 1px solid var(--border-dim); 	
+    height: 40px !important;
+    font-size: 20px !important;
 }
 .c-reaction__count {
 	color: var(--text-bright);
