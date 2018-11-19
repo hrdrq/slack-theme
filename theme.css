@@ -1477,11 +1477,16 @@ nav {
 .c-reaction {
     background: var(--background);
     border: 1px solid var(--border-dim); 	
-    height: 40px !important;
+    height: 30px !important;
+    width: 50px !important;
     font-size: 20px !important;
 }
 .c-reaction__count {
 	color: var(--text-bright);
+}
+
+.c-reaction .emoji-sizer {
+    font-size: 26px !important;
 }
 
 /* tooltips */
