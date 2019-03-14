@@ -1484,7 +1484,7 @@ nav {
 .c-reaction__count {
 	color: var(--text-bright) !important;
 }
-.c-reaction.c-reaction--reacted .c-reaction__count {
+.c-reaction.c-reaction--reacted.c-reaction__count {
 	color: black !important;
 }
 
