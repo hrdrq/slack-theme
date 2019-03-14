@@ -1482,7 +1482,10 @@ nav {
 /*     font-size: 20px !important; */
 }
 .c-reaction__count {
-	color: var(--text-bright);
+	color: var(--text-bright) !important;
+}
+.c-reaction.c-reaction--reacted .c-reaction__count {
+	color: white !important;
 }
 
 .c-reaction .emoji-sizer {
