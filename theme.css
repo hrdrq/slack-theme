@@ -1485,7 +1485,7 @@ nav {
 	color: var(--text-bright) !important;
 }
 .c-reaction.c-reaction--reacted .c-reaction__count {
-	color: white !important;
+	color: black !important;
 }
 
 .c-reaction .emoji-sizer {
