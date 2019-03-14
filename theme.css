@@ -1481,11 +1481,11 @@ nav {
     width: 50px !important;
 /*     font-size: 20px !important; */
 }
+.c-reaction.c-reaction--reacted .c-reaction__count {
+	color: black !important;
+}
 .c-reaction__count {
 	color: var(--text-bright) !important;
-}
-.c-reaction.c-reaction--reacted.c-reaction__count {
-	color: black !important;
 }
 
 .c-reaction .emoji-sizer {
